@@ -16,5 +16,8 @@ and have been tested to work with `g++` and `clang`.
 `bounded_queue.h`: A bounded lock-safe queue
 - Requires: `semaphore.h/cpp`
 
+`circular_buffer.h`: A circular stack that will always accept 
+more elements and deleting ones off the end of the capacity.
+
 ## License
 MIT - (view LICENSE for more information)
